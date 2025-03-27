@@ -6,7 +6,7 @@ import HeaderMiddleSection from "./components/HeaderMiddleSection";
 
 function App() {
   return (
-    <div className="">
+    <div className="pb-10">
       <Topbar />
       <HeaderMiddleSection />
       <Navbar />

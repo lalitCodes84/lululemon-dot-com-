@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { imageData } from "../utils/imageData";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa6";
+import Button from "./Button";
 
 function ImageSlider() {
   const [startIndex, setStartIndex] = useState(0);
@@ -71,7 +72,7 @@ function ImageSlider() {
         </button>
       </div>
       <div className="flex justify-center m-8">
-      <a href="" className="bg-white text-black cursor-pointer py-4 px-6 font-bold rounded border-2 hover:bg-black hover:text-white hover:border-black">SHOP WHAT'S NEW</a>
+        <Button label="SHOP WHAT'S NEW" className=""/>
       </div>
     </div>
   );
