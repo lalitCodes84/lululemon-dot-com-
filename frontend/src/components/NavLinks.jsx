@@ -11,7 +11,7 @@ function NavLinks() {
   ];
 
   return (
-    <div className="flex gap-8 font-bold text-xl">
+    <div className="flex gap-8 font-bold w-full">
       {links.map((link, index) => (
         <a
           key={index}
