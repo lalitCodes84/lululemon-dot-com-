@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navlinks() {
+function NavLinks() {
   const links = [
     "Women",
     "Men",
@@ -28,4 +28,4 @@ function Navlinks() {
   );
 }
 
-export default Navlinks;
+export default NavLinks;
