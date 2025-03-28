@@ -45,7 +45,7 @@ function LandingPage() {
       </div>
       <WhatsNewThisWeek />
       <ShopMatchingSets />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
