@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "./Logo.jsx";
 import Icons from "./Icons.jsx";
-import Navlinks from "./Navlinks.jsx";
-import SearchBar from "./Searchbar.jsx";
+import Navlinks from "../components/Navlinks.jsx";
+import SearchBar from "../components/SearchBar.jsx";
 
 function Navbar() {
   return (
