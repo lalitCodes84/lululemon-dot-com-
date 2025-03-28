@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./Logo.jsx";
 import Icons from "./Icons.jsx";
 import NavLinks from "./Navlinks.jsx";
-import SearchBar from "./Searchbar.jsx";
+import SearchBar from "./Searchbar";
 
 function Navbar() {
   return (
