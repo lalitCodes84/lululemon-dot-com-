@@ -2,7 +2,7 @@ import React from "react";
 import WhatsNewThisWeek from "../components/WhatsNewThisWeek";
 import ShopMatchingSets from "../components/ShopMatchingSets";
 import Button from "../components/Button";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer.jsx";
 
 function LandingPage() {
   return (
