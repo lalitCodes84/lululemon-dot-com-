@@ -16,10 +16,10 @@ function Navlinks() {
         <a
           key={index}
           href=""
-          className={`relative after:content-[''] after:absolute after:left-0 after:bottom-0 
+          className={` ${link === "Member Offers" ? "text-[#c8102e]" : ""} relative after:content-[''] after:absolute after:left-0 after:bottom-0 
                       after:w-0 after:h-[3px] 
                       after:bg-[#c8102e] after:transition-all after:duration-300
-                      hover:after:w-full ${link === "Member Offers" ? "text-[#c8102e]" : ""}`}
+                      hover:after:w-full `}
         >
           {link}
         </a>
